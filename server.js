@@ -2,7 +2,7 @@ let mongoose = require('mongoose');
 let express = require('express');
 let app = express();
 let cors = require('cors')
-let Quiz = require('./models/quiz')
+let Quiz = require('./quiz')
 
 let dotenv = require('dotenv');
 dotenv.config();
